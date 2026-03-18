@@ -26,5 +26,19 @@ console.log(mySymbol1 === mySymbol2);
 //arrays
 let myarray = ['overridellllllllllll'];
 
-document.getElementById('text').innerHTML = myarray;
+//objects
+const mygroup = {
+    groupmember1: "devon",
+    groupmember2: "alex",
+    groupyear: 2026,
+    name() {
+        let x = "Testing"
+        return x
+    }
 
+    ////displaymygroup: function() 
+     ///   {console.log('our group is ${this.groupmember1} ${this.groupmember2} ${this.groupyear}');
+    ///}
+};
+let xyz = mygroup.name;
+document.getElementById('text').textContent = mygroup.name();
