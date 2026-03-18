@@ -22,3 +22,9 @@ const string = "Hello World";
 const mySymbol1 = Symbol("description");
 const mySymbol2 = Symbol("description");
 console.log(mySymbol1 === mySymbol2);
+
+//arrays
+let myarray = ['overridellllllllllll'];
+
+document.getElementById('text').innerHTML = myarray;
+
